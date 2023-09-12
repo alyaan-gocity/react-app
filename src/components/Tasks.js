@@ -1,4 +1,19 @@
 import Task from "./Task"
+
+// const Tasks = (props) => {
+
+
+//     const foo = 1;
+
+//     const tasks = props.tasks;
+
+//     const { tasks } = props
+
+//     const { onDelete, ...restOfProps } = props
+
+//     tasks
+// }
+
 const Tasks = ({tasks, onDelete, onToggle}) => {
   return (
     <>
